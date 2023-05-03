@@ -21,7 +21,7 @@ function MyWill() {
     content: "",
     isPrivate: false,
   });
-
+  console.log(user);
   useEffect(() => {
     async function getWill() {
       const response = await fetch(
