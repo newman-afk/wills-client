@@ -21,7 +21,7 @@ function Home() {
       {wills.length === 0 && (
         <h1 className="text-center my-8 text-xl">啥也没有，我哭死😭</h1>
       )}
-      <div className=" h-screen grid xl:grid-cols-2 gap-9 pt-8 pb-40 md:px-4 xl:px-12">
+      <div className="grid xl:grid-cols-2 gap-9 pt-8 pb-40 md:px-4 xl:px-12">
         {wills.map((will) => {
           const { id, author, title, subtitle, content, createdAt, updatedAt } =
             will;
